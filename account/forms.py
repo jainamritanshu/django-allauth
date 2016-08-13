@@ -567,3 +567,5 @@ class UserTokenForm(forms.Form):
             raise forms.ValidationError(self.error_messages['token_invalid'])
 
         return cleaned_data
+
+        #test
