@@ -1,8 +1,33 @@
-{% load account %}{% user_display user as user_display %}{% load i18n %}{% autoescape off %}{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}Hello from {{ site_name }}!
+{% load account %}{% user_display user as user_display %}{% load i18n %}{% autoescape off %}{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}
+Hello {{ user_display }}
 
-You're receiving this e-mail because user {{ user_display }} at {{ site_domain }} has given yours as an e-mail address to connect their account.
+Thank you for registering!
+
+Greetings from BITS Pilani!
+
+It gives me immense pleasure in inviting your institute to the 31st edition of BITS Open Sports Meet (BOSM), the annual national sports meet of Birla Institute of Technology & Science, Pilani, India. This year, BOSM will be held from September 15th to 19th.             
+
+Kindly go through the invite attached with this email and apply through our website www.bits-bosm.org. Applications close on 31st August 2016 at 1700 hrs.            
+
+Please apply as soon as possible to enable us to confirm your participation at the earliest.             
+
+We would be really happy to see your college represented at our sports festival.            
+
+We look forward to seeing you at BOSM 2016.
+
+Please click this link to verify your email {{ activate_url }}
+
+P.S: THIS EMAIL DOES NOT CONFIRM YOUR PRESENCE AT BOSM 2016. 
+
+Regards,
+I don't Know
+CoSSAcn (Head)
+Dept. of Publications & Correspondence, BOSM 2016
+BITS Pilani
+Ph: +91 96605 77340
 
 To confirm this is correct, go to {{ activate_url }}
 {% endblocktrans %}{% endautoescape %}
-{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}Thank you from {{ site_name }}!
+{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}
 {{ site_domain }}{% endblocktrans %}
+
