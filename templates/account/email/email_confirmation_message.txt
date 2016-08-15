@@ -20,7 +20,7 @@ Please click this link to verify your email {{ activate_url }}
 P.S: THIS EMAIL DOES NOT CONFIRM YOUR PRESENCE AT BOSM 2016. 
 
 Regards,
-I don't Know
+Karthik Maddipoti
 CoSSAcn (Head)
 Dept. of Publications & Correspondence, BOSM 2016
 BITS Pilani
