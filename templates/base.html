@@ -15,7 +15,7 @@
   </head>
   <body>
     {% block body %}
-
+    <div class="container">
     {% if messages %}
     <div>
       <strong>Messages:</strong>
@@ -24,10 +24,12 @@
 	<li>{{message}}</li>
 	{% endfor %}
       </ul>
+    </div>  
     </div>
     {% endif %}
 
     <div>
+    <div class="container">
       <strong>Menu:</strong>
       <ul>
 	{% if user.is_authenticated %}
@@ -38,7 +40,20 @@
 	<li><a href="{% url 'account_signup' %}">Sign Up</a></li>
 	{% endif %}
       </ul>
+    </div>  
     </div>
+
+
+    <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <footer id="footer" class="textcenter">
+          Developed at DVM, BITS Pilani
+        </footer>
+      </div>
+    </div>
+  </div>
+
     {% block content %}
     {% endblock %}
     {% endblock %}
