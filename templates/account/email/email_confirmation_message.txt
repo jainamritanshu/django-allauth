@@ -24,7 +24,7 @@ I don't Know
 CoSSAcn (Head)
 Dept. of Publications & Correspondence, BOSM 2016
 BITS Pilani
-Ph: +91 96605 77340
+Ph: +91-7240105158
 
 To confirm this is correct, go to {{ activate_url }}
 {% endblocktrans %}{% endautoescape %}
